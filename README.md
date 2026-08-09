@@ -17,7 +17,7 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 ## Extras
 
-Recommended:
+### Recommended:
   - ai.avante
   - test.core
   - coding.yanky
@@ -30,3 +30,30 @@ Recommended:
   - lang.cmake
   - lang.git
   - lang.python
+
+# Zshell
+
+Install commonly used oh-my-zsh plugins and use them with the shell.
+
+```shell 
+Install oh-my-zsh
+  ```shell sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  ```
+```
+
+Modify the plugin in your .zshrc file and add the following content:
+```bash
+plugins=(
+  git
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+)
+```
+```
+Install plugins
+```shell
+>git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+>git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+# DONE
