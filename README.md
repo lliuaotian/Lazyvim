@@ -14,6 +14,9 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 - pynvim
 - make cmake (Other commonly used commands will not be listed one by one)
 - blink.cmp (This plugin may require uninstalling it once in Lazy and restarting nvim twice more)
+- fd
+- tree-sitter
+- npm
 
 ## Extras
 
